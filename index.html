@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="icon" href="virus.png">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Global</h1>
+            <h3>Total Confirm: <span id="confirm" class="confirm"></span></h3>
+            <h3>Total Recover: <span id="recover" class="recover"></span></h3>
+            <h3>Total Death: <span id="death" class="death"></span></h3>
+        </div>
+        
+        <h2>Search for Country</h2>
+
+        <form class="search-box">
+            <input type="text" class="search-txt" placeholder="search for Country">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </form>
+
+        <div class="card">
+            <h2 id="countryName"></h2>
+            <h3>Total Confirm: <span id="countryConfirm" class="confirm"></span></h3>
+            <h3>Total Recover: <span id="countryRecover" class="recover"></span></h3>
+            <h3>Total Death: <span id="countryDeath" class="death"></span></h3>
+        </div>
+        <!-- <div class="container2"> -->
+            <table class="table sticky">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>country</th>
+                        <th>total cases</th>
+                        <th>new cases</th>
+                        <th>total deaths</th>
+                        <th>new deaths</th>
+                        <th>total recover</th>
+                        <th>new recover</th>
+                    </tr>
+                </thead>
+                <tbody>     
+                </tbody>
+            </table>
+    <!-- </div> -->
+    <footer>
+        sources:
+        <br>
+        <a href="https://covid19api.com/">https://covid19api.com/</a>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
